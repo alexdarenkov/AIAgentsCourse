@@ -1,0 +1,120 @@
+{
+ "task": {
+  "id": "fresh-31",
+  "source": "fresh",
+  "question": "Who formed the new government of Kazakhstan after the legislative election on August 23, 2026?",
+  "answer": "Aibek Dädebai",
+  "evidence": "August 23 – The 2026 Kazakh legislative election was held, with Aibek Dädebai of the newly-formed Ädilet forming the new government of Kazakhstan.",
+  "page": "2026 in politics",
+  "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "После законодательных выборов в Казахстане 23 августа 2026 года новое правительство сформировала правящая партия Ädilet под руководством Айбека Дадебая, который был избран председателем нового однопалатного парламента - Курлтай. \n\nFINAL: Айбек Дадебай",
+ "correct": false,
+ "cost": 0.0007589999999999993,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who formed the new government of Kazakhstan after the legislative election on August 23, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_C5hzpsdYYtoPBJNUEyFdTNVM",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Kazakhstan government formation legislative election August 23, 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_C5hzpsdYYtoPBJNUEyFdTNVM",
+   "content": "[2026 Kazakh legislative election] Legislative elections were held in Kazakhstan on 23 August 2026 to elect all 145 members of the Kurultai of the 1st convocation. It was the 10th legislative election since Kazakhstan's independence in 1991 and the first election to the country's new unicameral legislature established by the 2026 Constitution. Turnout was 74.2%, making it the highest turnout recorded in a national vote in Kazakhstan since the 2026 referendum and the highest turnout in a legislative election since 2016. The new constitution, approved in a constitutional referendum, provided for the dissolution of the previous bicameral Parliament of Kazakhstan and established the Kurultai as the country's highest representative body. It entered into force on 1 July 2026, on which day President Kassym-Jomart Tokayev signed a decree calling the legislative election for 23 August. The vote also marked the return of party-list proportional representation under the new electoral system for the first time since the 2021 legislative elections. The campaign was contested by seven political parties and focused primarily on socio-economic and governance issues. Major campaign issues included living standards, taxation and the minimum wage; inflation and the rising cost of essential goods; economic and industrial development, including regional growth and labour productivity; and the implementation of the new constitutional and parliamentary system. Ahead of the election, press freedom organizations reported increasing pressure on independent journalists, including arrests, criminal investigations, travel bans and restrictions on journalistic activity. The Organization for Security and Co-operation in Europe said the elections were \"technically well prepared\" but took place in an environment lacking political pluralism, with limited political alternatives and restrictions on independent candidates, civil society and media. The newly formed pro-presidential Ädilet party, the suc"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_4xuioTEmCoP7JcJOPVzmuttY",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Kazakhstan\",\"keywords\":\"new government August 23, 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_4xuioTEmCoP7JcJOPVzmuttY",
+   "content": "[Kazakhstan]\nKazakhstan launched the Green Economy Plan in 2013. It committed Kazakhstan to meet 50% of its energy needs from alternative and renewable sources by 2050. The green economy was projected to increase GDP by 3% and create some 500,000 jobs. The government set prices for energy produced from renewable sources. The price of 1 kilowatt-hour for energy produced by wind power plants was set at 22.68 tenge ($0.12), for 1 kilowatt-hour produced by small hydro-power plants 16.71 tenges ($0.09), and from \nThe competition for land and water that ensued between the Kazakhs and the newcomers caused great resentment against colonial rule during the final years of the Russian Empire. The most significant uprising, the Central Asian revolt, occurred in 1916. The Kazakhs attacked Russian and Cossack settlers and military garrisons. The revolt resulted in a series of clashes and in brutal massacres committed by both sides. Both sides resisted the communist government until late 1919.\nFollowing the collapse of central government in Petrograd in November 1917, the Kazakhs (then in Russia officially referred to as \"Kirghiz\") experienced a brief period of autonomy (the Alash Autonomy) before eventually succumbing to the Bolsheviks' rule. On 26 August 1920 the Kirghiz Autonomous Socialist Soviet Republic within the Russian Soviet Federative Socialist Republic (RSFSR) was established. The Kirghiz ASSR included the territory of present-day Kazakhstan, but its administrative centre \nKazakhstan declared its sovereignty within the Soviet Union on 25 October 1990. Following the failed August 1991 coup attempt in Moscow, the country proclaimed full independence on 16 December 1991, becoming the last Soviet republic to do so. Ten days after Kazakhstan's declaration, the Soviet Union itself dissolved. This period marked a significant turning point in Kazakhstan's history, as it embarke\n"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_bRdGCctN22hx1yGQ5YRoiyzi",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Kazakhstan government formation pro-presidential Ädilet party after election August 23, 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_bRdGCctN22hx1yGQ5YRoiyzi",
+   "content": "[Ädilet (political party)] Ädilet (Kazakh: Әділет, romanized: Ädılet, lit. 'Justice', stylized as Әdilet) is the ruling political party of Kazakhstan. Founded on 7 May 2026, it describes itself as a reformist centrist party supporting the political reforms of President Kassym-Jomart Tokayev and the principles of \"Just Kazakhstan\". Its chairman is Aibek Dädebai, who has led the party since its foundation. Ädilet was established by an initiative group of political activists, public figures, business representatives, and members of the Constitutional Commission that drafted Kazakhstan's new constitution. The party was formally registered by the Ministry of Justice on 1 June 2026. On 14 June, the former ruling party Amanat merged into Ädilet following decisions by the two parties' congresses. The merger expanded Ädilet's organisational structure and brought Amanat's youth wing, Jastar Ruhy, into the party. The party contested the 2026 Kazakh legislative election, the first election for the newly established unicameral Kurultai where it campaigned on political and institutional reform, regional development, economic development, digitalisation, employment, housing, and social policy. The party won 71.17% of the vote and 110 of the 145 seats in the 1st Kurultai, making it the largest party in the legislature."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_lMvciZEHu6dxl6NNN6RsV5pG",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Aibek Dädebai\",\"keywords\":\"new government formation Kazakhstan August 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_lMvciZEHu6dxl6NNN6RsV5pG",
+   "content": "[Aibek Dädebai]\nAfter the 2026 Kazakh legislative election, Dädebai was elected to the newly-created unicameral Kurultai of Kazakhstan. On its first working meeting on 28 August, he was elected Chairman of the Kurultai.\nOn 7 May 2026, at the founding congress of the new Ädilet, Dadebai was elected as its chairman.\nAibek Arqabaiūly Dädebai né Dadebayev; born 1 April 1980) is a Kazakh politician and diplomat who has served as a member and the chairman of the Kurultai since 2026. He is also chairman of the Ädilet party. Previously, he worked as Aqorda Chief of Staff under Kassym-Jomart Tokayev's Administration from 2024 to 2026.\nAibek Dadebai was born in Alma-Ata, Soviet Kazakhstan (now Almaty, Kazakhstan) on 1 April 1980.\nFrom 2008 to 2011, Dadebai served as an expert in the Department of Interparliamentary Relations and International Cooperation of the Senate Apparatus of Kazakhstan, and as acting assistant to the Chairman of the Senate.\nFrom 2011 to 2013, he was an attaché and third secretary at the Permanent Mission of Kazakhstan to the United Nations in Geneva.\n"
+  },
+  {
+   "role": "assistant",
+   "content": "После законодательных выборов в Казахстане 23 августа 2026 года новое правительство сформировала правящая партия Ädilet под руководством Айбека Дадебая, который был избран председателем нового однопалатного парламента - Курлтай. \n\nFINAL: Айбек Дадебай",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

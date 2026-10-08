@@ -57,10 +57,14 @@ def check_format(rows):
 def check_sonnet(rows):
     import fetch_fresh as f
     right = []
-    for r in rows:
+    total = len(rows)
+    if total:
+        print(f"Sonnet: 0/{total}", flush=True)
+    for i, r in enumerate(rows, 1):
         ans = f.strong_answer(r["question"])
         if f.normalize(r["answer"]) in f.normalize(ans):
             right.append((r["id"], r["question"], ans))
+        print(f"Sonnet: {i}/{total}", flush=True)
     share = len(right) / len(rows) if rows else 0
     print(f"\nSonnet без инструментов: {len(right)} из {len(rows)} верно, {share:.0%}. Потрачено ${f.COST:.3f}")
     print("критерий свежести " + ("пройден" if share <= 0.2 else "НЕ пройден: не выше 20 процентов"))

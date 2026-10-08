@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-119",
+  "source": "fresh",
+  "question": "What cities have resumed passenger services in May 2026?",
+  "answer": "Baku and Tbilisi",
+  "evidence": "26 May – Passenger servises resume between Baku and Tbilisi.",
+  "page": "2026 in rail transport",
+  "url": "https://en.wikipedia.org/wiki/2026_in_rail_transport",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "I don't have access to data beyond October 2023, so I cannot provide information about events or changes that occurred in May 2026. For updates on passenger services, please consult reliable news sources or transportation authorities closer to that date. \n\nFINAL: Нет информации.",
+ "correct": false,
+ "cost": 4.544999999999983e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What cities have resumed passenger services in May 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have access to data beyond October 2023, so I cannot provide information about events or changes that occurred in May 2026. For updates on passenger services, please consult reliable news sources or transportation authorities closer to that date. \n\nFINAL: Нет информации.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

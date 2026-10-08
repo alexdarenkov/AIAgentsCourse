@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-143",
+  "source": "fresh",
+  "question": "Which stellar nursery was shown in the Webb image released by NASA on October 6, 2026, revealing stars previously hidden by dust about 3,300 light-years from Earth?",
+  "answer": "NGC 7129",
+  "evidence": "a stellar nursery known as NGC 7129",
+  "url": "https://science.nasa.gov/missions/webb/nasas-webb-captures-commotion-from-nebulas-stellar-jets/",
+  "page": "NASA’s Webb Captures Commotion From Nebula’s Stellar Jets",
+  "publication_date": "2026-10-06",
+  "checked_at": "2026-10-07"
+ },
+ "answer": "The stellar nursery shown in the Webb image released by NASA on October 6, 2026, is the \"Lagoon Nebula.\" \n\nFINAL: Lagoon Nebula",
+ "correct": false,
+ "cost": 3.7200000000000254e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Which stellar nursery was shown in the Webb image released by NASA on October 6, 2026, revealing stars previously hidden by dust about 3,300 light-years from Earth?"
+  },
+  {
+   "role": "assistant",
+   "content": "The stellar nursery shown in the Webb image released by NASA on October 6, 2026, is the \"Lagoon Nebula.\" \n\nFINAL: Lagoon Nebula",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

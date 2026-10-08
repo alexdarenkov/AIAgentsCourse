@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-82",
+  "source": "fresh",
+  "question": "What was the death toll from the fire at a shoe factory in China in July 2026?",
+  "answer": "28 people",
+  "evidence": "9 July — A fire at a shoe factory in Jinjiang, Quanzhou kills 28 people.",
+  "page": "2026 in China",
+  "url": "https://en.wikipedia.org/wiki/2026_in_China",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "The fire at a shoe factory in Jinjiang, Quanzhou, China, in July 2026 resulted in a death toll of 28 people. \n\nFINAL: 28",
+ "correct": false,
+ "cost": 0.00024885000000000185,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What was the death toll from the fire at a shoe factory in China in July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_GvwsEBDXHDf3lzSXzdjqZwQR",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"China shoe factory fire July 2026 death toll\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_GvwsEBDXHDf3lzSXzdjqZwQR",
+   "content": "[2026 in China] Events in the year 2026 in China."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_TSFCw1n7g7n9Gix6Lbjza5Lj",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in China\",\"keywords\":\"shoe factory fire death toll\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_TSFCw1n7g7n9Gix6Lbjza5Lj",
+   "content": "[2026 in China]\n9 July — A fire at a shoe factory in Jinjiang, Quanzhou kills 28 people.\n4 May – At least 37 people are killed in explosion at a fireworks factory in Liuyang, Hunan.\n20 September – Eight people are killed in a fire at a textile factory in Foshan, Guangdong.\n18 January – Four people are killed while 84 others are injured with six reported missing following an explosion at the Baogang United Steel factory in Baotou.\n6 February – The Supreme People’s Court overturns the death sentence issued to Canadian national Robert Lloyd Schellenberg for drug trafficking.\n15 February – Eight people are killed in an explosion at a fireworks store in Donghai County, Jiangsu.\n"
+  },
+  {
+   "role": "assistant",
+   "content": "The fire at a shoe factory in Jinjiang, Quanzhou, China, in July 2026 resulted in a death toll of 28 people. \n\nFINAL: 28",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

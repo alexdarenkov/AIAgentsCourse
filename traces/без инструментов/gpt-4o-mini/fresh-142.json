@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-142",
+  "source": "fresh",
+  "question": "Exactly how many names were on the memory card installed on the Nancy Grace Roman Space Telescope on July 27, 2026?",
+  "answer": "1,350,144",
+  "evidence": "installed a memory card containing 1,350,144 names",
+  "url": "https://www.nasa.gov/image-article/nasas-roman-telescope-to-carry-1-35-million-names-to-deep-space/",
+  "page": "NASA’s Roman Telescope to Carry 1.35 Million Names to Deep Space",
+  "publication_date": "2026-07-31",
+  "checked_at": "2026-10-07"
+ },
+ "answer": "I currently do not have access to information or events that will happen after October 2023, including specific details about the Nancy Grace Roman Space Telescope and its memory card contents. \n\nFINAL: не известна",
+ "correct": false,
+ "cost": 3.9749999999999855e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Exactly how many names were on the memory card installed on the Nancy Grace Roman Space Telescope on July 27, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I currently do not have access to information or events that will happen after October 2023, including specific details about the Nancy Grace Roman Space Telescope and its memory card contents. \n\nFINAL: не известна",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

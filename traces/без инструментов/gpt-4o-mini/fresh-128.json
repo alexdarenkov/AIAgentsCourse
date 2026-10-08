@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-128",
+  "source": "fresh",
+  "question": "How many new trans-Neptunian objects did Webb discover in the joint Hubble–Webb survey reported by NASA on September 8, 2026?",
+  "answer": "27",
+  "evidence": "Webb discovered 27 new, remarkably dim TNOs",
+  "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-webb-find-far-out-solar-system-objects-remember-past/",
+  "page": "NASA’s Hubble, Webb Find Far-out Solar System Objects ‘Remember’ Past",
+  "publication_date": "2026-09-08",
+  "checked_at": "2026-10-07"
+ },
+ "answer": "I currently do not have access to events or data beyond October 2023, including any reported discoveries in 2026. Therefore, I cannot provide the specific number of new trans-Neptunian objects discovered by the Webb telescope in that survey. \n\nFINAL: Unknown.",
+ "correct": false,
+ "cost": 4.920000000000011e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "How many new trans-Neptunian objects did Webb discover in the joint Hubble–Webb survey reported by NASA on September 8, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I currently do not have access to events or data beyond October 2023, including any reported discoveries in 2026. Therefore, I cannot provide the specific number of new trans-Neptunian objects discovered by the Webb telescope in that survey. \n\nFINAL: Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "task": {
+  "id": "fresh-45",
+  "source": "fresh",
+  "question": "What type of aircraft crashed in Yalova Province, Turkey on August 13, 2026?",
+  "answer": "F-16 Fighting Falcon",
+  "evidence": "13 August – An F-16 Fighting Falcon of the Turkish Air Force crashes in Yalova Province. The pilot ejects safely.",
+  "page": "2026 in Turkey",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Perfect! I found the information.\n\nFINAL: F-16 Fighting Falcon",
+ "correct": true,
+ "cost": 0.012693999999999983,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What type of aircraft crashed in Yalova Province, Turkey on August 13, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about an aircraft crash in Yalova Province, Turkey on August 13, 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01AXSqX5EK18ugXvJL8NYrjW",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Yalova Province Turkey aircraft crash August 13 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01AXSqX5EK18ugXvJL8NYrjW",
+   "content": "[List of accidents and incidents involving military aircraft (2020–present)] This is a list of accidents and incidents involving military aircraft grouped by the year in which the accident or incident occurred. Not all of the aircraft were in operation at the time. Combat losses are not included except for a few cases denoted by singular circumstances."
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search more specifically for this incident.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01SoKoBe2qU8VQgJyV5k6AhH",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Yalova Turkey crash 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01SoKoBe2qU8VQgJyV5k6AhH",
+   "content": "[2026 in Turkey] Individuals and events related to 2026 in Turkey."
+  },
+  {
+   "role": "assistant",
+   "content": "Let me try searching for \"2026 in Turkey\" to see if I can find details about this incident.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01ThhP5ucCjztjuqkv6Rmowe",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"2026 in Turkey\", \"keywords\": \"Yalova aircraft crash August\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01ThhP5ucCjztjuqkv6Rmowe",
+   "content": "[2026 in Turkey]\n13 August – An F-16 Fighting Falcon of the Turkish Air Force crashes in Yalova Province. The pilot ejects safely.\n22 January – Authorities announce the discovery in Istanbul of the body of a Russian swimmer who disappeared while competing in the 2025 Bosphorus Cross Continental Swim in August.\n25 February – An F-16 fighter jet of the Turkish Air Force crashes shortly after takeoff near a section of Otoyol 5 in Balıkesir, killing the pilot.\n31 May – A bus crashes into highway barriers and catches fire in Denizli Province, killing eight people and injuring 33 others.\n=== August ===\n1 August – Iraq signs a one-year exportation agreement with Turkey to export 750 thousand barrels of petroleum through the Ceyhan pipeline.\n"
+  },
+  {
+   "role": "assistant",
+   "content": "Perfect! I found the information.\n\nFINAL: F-16 Fighting Falcon",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

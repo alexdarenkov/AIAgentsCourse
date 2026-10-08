@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-63",
+  "source": "fresh",
+  "question": "How many people were killed in the avalanche near Ratschings in March 2026?",
+  "answer": "Two",
+  "evidence": "21 March – Two people are killed in an avalanche at the Hohe Ferse near Ratschings.",
+  "page": "2026 in Italy",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Italy",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "I couldn't find any information about an avalanche near Ratschings in March 2026 or any related fatalities. It seems that the event might not have been documented or reported in the sources available. FINAL: No information available.",
+ "correct": false,
+ "cost": 0.00014895000000000186,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "How many people were killed in the avalanche near Ratschings in March 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_fl1kQqTspDeJGOjjqZAsp2GM",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Ratschings avalanche March 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_fl1kQqTspDeJGOjjqZAsp2GM",
+   "content": "[2026 in Italy] The following is a list of events of the year 2026 in Italy."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_8KNwrRj3LmKU6p1UQcxhQcR4",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Ratschings avalanche deaths March 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_8KNwrRj3LmKU6p1UQcxhQcR4",
+   "content": "[2026 in Italy] The following is a list of events of the year 2026 in Italy."
+  },
+  {
+   "role": "assistant",
+   "content": "I couldn't find any information about an avalanche near Ratschings in March 2026 or any related fatalities. It seems that the event might not have been documented or reported in the sources available. FINAL: No information available.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

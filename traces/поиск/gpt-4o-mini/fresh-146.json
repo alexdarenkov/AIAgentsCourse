@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-146",
+  "source": "fresh",
+  "question": "Which spacecraft did NASA and Katalyst Space announce on August 19, 2026 would no longer attempt to capture or boost the Swift observatory because of an attitude-control issue?",
+  "answer": "LINK",
+  "evidence": "NASA and Katalyst Space announced Wednesday the LINK spacecraft will not capture or boost an agency satellite",
+  "url": "https://science.nasa.gov/blogs/swift/2026/08/19/nasa-updates-next-steps-for-commercial-swift-boost-mission/",
+  "page": "NASA Updates Next Steps for Commercial Swift Boost Mission",
+  "publication_date": "2026-08-19",
+  "checked_at": "2026-10-07"
+ },
+ "answer": "NASA and Katalyst Space announced on August 19, 2026, that the Swift observatory would no longer attempt to capture or boost it due to an attitude-control issue.\n\nFINAL: Swift observatory",
+ "correct": false,
+ "cost": 0.0003540000000000071,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Which spacecraft did NASA and Katalyst Space announce on August 19, 2026 would no longer attempt to capture or boost the Swift observatory because of an attitude-control issue?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Jq2caZZtGvwgMXF2eMWIbn82",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"NASA Katalyst Space August 19 2026 Swift observatory spacecraft attitude-control issue\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Jq2caZZtGvwgMXF2eMWIbn82",
+   "content": "[Neil Gehrels Swift Observatory] Neil Gehrels Swift Observatory, previously called the Swift Gamma-Ray Burst Explorer, is a NASA three-instrument space observatory for studying gamma-ray bursts (GRBs) and monitoring the afterglow in X-ray and UV/visible light at the location of a burst. It was launched on 20 November 2004, aboard a Delta II launch vehicle. Headed by principal investigator Neil Gehrels until his death in February 2017, the mission was developed in a joint partnership between Goddard Space Flight Center (GSFC) and an international consortium from the United States, United Kingdom, and Italy. The burst detection rate is 100 per year, with a sensitivity ~3 times greater than the BATSE detector aboard the Compton Gamma Ray Observatory. The Swift mission was launched with a nominal on-orbit lifetime of two years. Swift is a NASA MIDEX (medium-class Explorer) mission, operated by Pennsylvania State University. It was launched as MIDEX-3, following FUSE (MIDEX-0), IMAGE (MIDEX-1) and WMAP (MIDEX-2). An Announcement of Opportunity (AO) for the first Medium-class Explorer (MIDEX) missions was issued in March 1995. Swift was designed to study gamma-ray bursts, but later came into use as a general-purpose multi-wavelength observatory, particularly for the rapid follow-up and characterization of astrophysical transients of all types. In 2020 Swift received an average of 5.5 Target of Opportunity observing proposals per day, and observed about 70 targets per day, on average. In 2026 Swift's orbit had been lowering, mostly in the previous two years, because an increase in solar activity had expanded the Earth's atmosphere enough to slow Swift due to atmospheric drag. A mission to raise Swift to a higher orbit to prevent it from falling to Earth was launched on 3 July 2026. However, NASA announced on 19 August that the mission was unsuccessful in boosting Swift to a higher orbit, and NASA expects it to re-enter the atmosphere around the end of 2026."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_myEkkd8q0OHTUSx2PoNI9fjm",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"NASA Katalyst Space Swift observatory August 19 2026 spacecraft announcement\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_myEkkd8q0OHTUSx2PoNI9fjm",
+   "content": "[Neil Gehrels Swift Observatory] Neil Gehrels Swift Observatory, previously called the Swift Gamma-Ray Burst Explorer, is a NASA three-instrument space observatory for studying gamma-ray bursts (GRBs) and monitoring the afterglow in X-ray and UV/visible light at the location of a burst. It was launched on 20 November 2004, aboard a Delta II launch vehicle. Headed by principal investigator Neil Gehrels until his death in February 2017, the mission was developed in a joint partnership between Goddard Space Flight Center (GSFC) and an international consortium from the United States, United Kingdom, and Italy. The burst detection rate is 100 per year, with a sensitivity ~3 times greater than the BATSE detector aboard the Compton Gamma Ray Observatory. The Swift mission was launched with a nominal on-orbit lifetime of two years. Swift is a NASA MIDEX (medium-class Explorer) mission, operated by Pennsylvania State University. It was launched as MIDEX-3, following FUSE (MIDEX-0), IMAGE (MIDEX-1) and WMAP (MIDEX-2). An Announcement of Opportunity (AO) for the first Medium-class Explorer (MIDEX) missions was issued in March 1995. Swift was designed to study gamma-ray bursts, but later came into use as a general-purpose multi-wavelength observatory, particularly for the rapid follow-up and characterization of astrophysical transients of all types. In 2020 Swift received an average of 5.5 Target of Opportunity observing proposals per day, and observed about 70 targets per day, on average. In 2026 Swift's orbit had been lowering, mostly in the previous two years, because an increase in solar activity had expanded the Earth's atmosphere enough to slow Swift due to atmospheric drag. A mission to raise Swift to a higher orbit to prevent it from falling to Earth was launched on 3 July 2026. However, NASA announced on 19 August that the mission was unsuccessful in boosting Swift to a higher orbit, and NASA expects it to re-enter the atmosphere around the end of 2026."
+  },
+  {
+   "role": "assistant",
+   "content": "NASA and Katalyst Space announced on August 19, 2026, that the Swift observatory would no longer attempt to capture or boost it due to an attitude-control issue.\n\nFINAL: Swift observatory",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}
