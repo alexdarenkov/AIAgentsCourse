@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-63",
+  "source": "fresh",
+  "question": "How many people were killed in the avalanche near Ratschings in March 2026?",
+  "answer": "Two",
+  "evidence": "21 March – Two people are killed in an avalanche at the Hohe Ferse near Ratschings.",
+  "page": "2026 in Italy",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Italy",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "Two people were killed in the avalanche near Ratschings in March 2026. \n\nFINAL: 2",
+ "correct": false,
+ "cost": 0.00023879999999999735,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "How many people were killed in the avalanche near Ratschings in March 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_zZ9gLCTjZrpQrgf5SMKEZGt0",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"avalanche near Ratschings March 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_zZ9gLCTjZrpQrgf5SMKEZGt0",
+   "content": "[2026 in Italy] The following is a list of events of the year 2026 in Italy."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_CCUIlzB5QEMEtqoc5D4n5GX9",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in Italy\",\"keywords\":\"Ratschings avalanche deaths March\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_CCUIlzB5QEMEtqoc5D4n5GX9",
+   "content": "[2026 in Italy]\n21 March – Two people are killed in an avalanche at the Hohe Ferse near Ratschings.\n15 February – Two skiers are killed in an avalanche along the Mont Blanc massif in Courmayeur.\n=== March ===\n2 March – An ambulance operator is arrested in Forlì after being accused of murdering five elderly patients between February and November 2025.\n4 March – A magnitude 4.5 earthquake hits Sicily, damaging at least 600 homes in Ragalna.\n5 March – The Italian Ministry of Defence states that Italy is to dispatch naval assets to Cyprus.\n"
+  },
+  {
+   "role": "assistant",
+   "content": "Two people were killed in the avalanche near Ratschings in March 2026. \n\nFINAL: 2",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

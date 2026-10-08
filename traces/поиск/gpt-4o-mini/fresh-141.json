@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-141",
+  "source": "fresh",
+  "question": "How many sides did the atmospheric wave around Saturn’s south pole have in the Hubble study published on September 2, 2026?",
+  "answer": "10",
+  "evidence": "have revealed a giant, evolving, 10-sided atmospheric wave encircling Saturn's south pole.",
+  "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-tracks-new-decagon-encircling-saturns-south-pole/",
+  "page": "NASA’s Hubble Tracks New Decagon Encircling Saturn’s South Pole",
+  "publication_date": "2026-09-02",
+  "checked_at": "2026-10-07"
+ },
+ "answer": "The atmospheric wave around Saturn's south pole does not have a hexagonal shape; instead, it forms a decagon shape, meaning it has ten sides. \n\nFINAL: 10",
+ "correct": true,
+ "cost": 0.00013364999999999905,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "How many sides did the atmospheric wave around Saturn’s south pole have in the Hubble study published on September 2, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_gk1X0YkNqKpYkkSM8xcV0sc0",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Saturn atmospheric wave south pole Hubble study September 2 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_gk1X0YkNqKpYkkSM8xcV0sc0",
+   "content": "[Saturn's hexagon] Saturn's hexagon is a persistent approximately hexagonal cloud pattern around the north pole of the planet Saturn, located at about 78°N. The sides of the hexagon are about 14,500 km (9,000 mi) long, which is about 2,000 km (1,200 mi) longer than the diameter of Earth. The hexagon is around 300 km (190 mi) high, and may be a jet stream made of atmospheric gases moving at 320 km/h (200 mph). It rotates with a period of 10h 39m 24s, the same period as Saturn's radio emissions from its interior. The hexagon does not shift in longitude like other clouds in the visible atmosphere. Saturn's hexagon was discovered during the Voyager mission in 1981, and was later revisited by Cassini-Huygens in 2006. During the Cassini mission, the hexagon changed from a mostly blue color to more of a golden color. Saturn's south pole does not have a hexagon, as verified by Hubble observations. It does, however, have a decagon-shaped atmospheric wave pattern. Multiple hypotheses for the hexagonal cloud pattern have been developed."
+  },
+  {
+   "role": "assistant",
+   "content": "The atmospheric wave around Saturn's south pole does not have a hexagonal shape; instead, it forms a decagon shape, meaning it has ten sides. \n\nFINAL: 10",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

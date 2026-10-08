@@ -1,0 +1,190 @@
+{
+ "task": {
+  "id": "fresh-57",
+  "source": "fresh",
+  "question": "What is the name of the former President upheld with a 7-year prison sentence in July 2026?",
+  "answer": "Yoon Suk Yeol",
+  "evidence": "7 July – The Supreme Court upholds the 7-year prison sentence and 5-year suspended sentence for former President Yoon Suk Yeol, who was convicted on charges of inciting insurrection and interfering with official duties by ordering his security service to block the execution of a court warrant.",
+  "page": "2026 in South Korea",
+  "url": "https://en.wikipedia.org/wiki/2026_in_South_Korea",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "У меня нет информации о президенте, который был приговорен к 7-летнему тюремному сроку в июле 2026 года, так как эти события ещё не произошли и краткосрочные планы или события такого рода не входят в рамки моей базы данных. \n\nFINAL: Неизвестно.",
+ "correct": false,
+ "cost": 0.0011274000000000006,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What is the name of the former President upheld with a 7-year prison sentence in July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_OGoLW17iKhEvnj4H30s3N32j",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"former President 7-year prison sentence July 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_OGoLW17iKhEvnj4H30s3N32j",
+   "content": "[List of longest prison sentences served] This is a list of longest prison sentences served by a single person, worldwide, without a period of freedom followed by a second conviction. These cases rarely coincide with the longest prison sentences given, because some countries have laws that do not allow sentences without parole or for convicts to remain in prison beyond a given number of years (regardless of their original conviction)."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_cReMdz9BqO58mEGLYcn9zq4i",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"former President sentenced to prison July 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_cReMdz9BqO58mEGLYcn9zq4i",
+   "content": "[Federal Prison Camp, Bryan] Federal Prison Camp, Bryan (FPC Bryan) is a minimum-security United States federal prison for female inmates in Bryan, Texas. It is operated by the Federal Bureau of Prisons, a division of the United States Department of Justice. Opened in July 1989, the prison is located in a 37-acre (15-hectare) compound. It is designed to hold short-term offenders with average sentences of five years or less. FPC Bryan is located 95 miles (153 km) northwest of Houston. FPC Bryan along with FPC Lewisburg and FPC Lompoc have the lowest security rating of all the federal institutions, other than community corrections centers as those are known as halfway houses. Due to the low classification, most of these facilities have no fence and a low staff-to-inmate ratio."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_T3j1pnjOvcmCK6ukUg6ug2kf",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"president sentenced jail July 2026 news\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_T3j1pnjOvcmCK6ukUg6ug2kf",
+   "content": "[2026 in South Korea] Scheduled events in 2026 in South Korea."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_0FKbkiAv0qRUdZ05BytpSbRT",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"former president prison sentence news July 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_0FKbkiAv0qRUdZ05BytpSbRT",
+   "content": "[List of longest prison sentences served] This is a list of longest prison sentences served by a single person, worldwide, without a period of freedom followed by a second conviction. These cases rarely coincide with the longest prison sentences given, because some countries have laws that do not allow sentences without parole or for convicts to remain in prison beyond a given number of years (regardless of their original conviction)."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_nJPQp3pc8qm7kNctBaFwccxb",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"president convicted prison July 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_nJPQp3pc8qm7kNctBaFwccxb",
+   "content": "[2026 in South Korea] Scheduled events in 2026 in South Korea."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_DY123tGZcL99BKYqmfcrSOGJ",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"former president sentenced to prison July 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_DY123tGZcL99BKYqmfcrSOGJ",
+   "content": "[Federal Prison Camp, Bryan] Federal Prison Camp, Bryan (FPC Bryan) is a minimum-security United States federal prison for female inmates in Bryan, Texas. It is operated by the Federal Bureau of Prisons, a division of the United States Department of Justice. Opened in July 1989, the prison is located in a 37-acre (15-hectare) compound. It is designed to hold short-term offenders with average sentences of five years or less. FPC Bryan is located 95 miles (153 km) northwest of Houston. FPC Bryan along with FPC Lewisburg and FPC Lompoc have the lowest security rating of all the federal institutions, other than community corrections centers as those are known as halfway houses. Due to the low classification, most of these facilities have no fence and a low staff-to-inmate ratio."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_SBAz8yW9DTUqlK21YcTfUY3W",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"July 2026 former president prison sentence\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_SBAz8yW9DTUqlK21YcTfUY3W",
+   "content": "[List of longest prison sentences served] This is a list of longest prison sentences served by a single person, worldwide, without a period of freedom followed by a second conviction. These cases rarely coincide with the longest prison sentences given, because some countries have laws that do not allow sentences without parole or for convicts to remain in prison beyond a given number of years (regardless of their original conviction)."
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "У меня нет информации о президенте, который был приговорен к 7-летнему тюремному сроку в июле 2026 года, так как эти события ещё не произошли и краткосрочные планы или события такого рода не входят в рамки моей базы данных. \n\nFINAL: Неизвестно.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-136",
+  "source": "fresh",
+  "question": "On what date in September 2026 did Katalyst Space’s LINK spacecraft re-enter Earth’s atmosphere after its unsuccessful Swift orbit-boost mission?",
+  "answer": "Sept. 25",
+  "evidence": "The spacecraft re-entered the atmosphere on Sept. 25.",
+  "url": "https://science.nasa.gov/missions/swift/nasa-highlights-lessons-learned-from-swift-boost-mission/",
+  "page": "NASA Highlights Lessons Learned From Swift Boost Mission",
+  "publication_date": "2026-09-28",
+  "checked_at": "2026-10-07"
+ },
+ "answer": "Perfect! I found the information about the LINK spacecraft's re-entry.\n\nFINAL: September 25, 2026",
+ "correct": false,
+ "cost": 0.009187000000000056,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "On what date in September 2026 did Katalyst Space’s LINK spacecraft re-enter Earth’s atmosphere after its unsuccessful Swift orbit-boost mission?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about Katalyst Space's LINK spacecraft and its re-entry in September 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01NmhKVgXjrhZPAh5chFG5re",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Katalyst Space LINK spacecraft re-entry September 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01NmhKVgXjrhZPAh5chFG5re",
+   "content": "[2026 in spaceflight] Notable spaceflight events during the year 2026."
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search for more specific information about this event.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01C4Miqw1yigQ77ctUyZJELL",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"LINK spacecraft Swift orbit-boost mission Katalyst\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01C4Miqw1yigQ77ctUyZJELL",
+   "content": "[Swift boost mission] The Swift boost mission was a robotic on-orbit satellite servicing mission that was intended to boost the orbit and extend the lifetime of the Neil Gehrels Swift Observatory, which is anticipated to undergo uncontrolled reentry by the end of 2026. The LINK servicing spacecraft, built and operated by Katalyst Space Technologies, was launched on July 3, 2026, and reentered on September 25, 2026. LINK was to have been the first commercial spacecraft to dock with a government-owned spacecraft that was not designed for docking or on-orbit servicing. However, following ongoing attitude control problems, Katalyst abandoned the boost attempt, and simply conducted rendezvous and proximity tests around Swift while their spacecraft remained in orbit."
+  },
+  {
+   "role": "assistant",
+   "content": "Perfect! I found the information about the LINK spacecraft's re-entry.\n\nFINAL: September 25, 2026",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

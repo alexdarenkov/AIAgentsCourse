@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-142",
+  "source": "fresh",
+  "question": "Exactly how many names were on the memory card installed on the Nancy Grace Roman Space Telescope on July 27, 2026?",
+  "answer": "1,350,144",
+  "evidence": "installed a memory card containing 1,350,144 names",
+  "url": "https://www.nasa.gov/image-article/nasas-roman-telescope-to-carry-1-35-million-names-to-deep-space/",
+  "page": "NASA’s Roman Telescope to Carry 1.35 Million Names to Deep Space",
+  "publication_date": "2026-07-31",
+  "checked_at": "2026-10-07"
+ },
+ "answer": "Perfect! I found the information. According to the Wikipedia article about the Nancy Grace Roman Space Telescope, during final integration at Kennedy Space Center in July 2026, technicians installed a commemorative plaque with a memory card containing names submitted by the public.\n\nThe article states that the memory card contains **1,350,144 names**.\n\nWhile the article mentions \"July 2026\" rather than the specific date of July 27, 2026, this is the memory card installation that occurred during that timeframe.\n\nFINAL: 1,350,144",
+ "correct": true,
+ "cost": 0.010876000000000108,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Exactly how many names were on the memory card installed on the Nancy Grace Roman Space Telescope on July 27, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I need to search for information about the Nancy Grace Roman Space Telescope and what happened on July 27, 2026 regarding a memory card with names.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01UfqDuJDq6Jc8Evntz26mLw",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Nancy Grace Roman Space Telescope memory card July 27 2026 names\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01UfqDuJDq6Jc8Evntz26mLw",
+   "content": "[Nancy Grace Roman Space Telescope] The Nancy Grace Roman Space Telescope is a NASA infrared space telescope that was launched on a trajectory toward a Sun–Earth L2 orbit on 30 August 2026. It is named after NASA's first chief of astronomy, Nancy Grace Roman. The telescope is based on an existing 2.4-meter (7.9-foot) primary mirror with a wide field of view that was donated by the National Reconnaissance Office and will carry two scientific instruments. The Wide-Field Instrument (WFI) is a 300.8-megapixel multi-band visible and near-infrared camera, providing image sharpness comparable to the Hubble Space Telescope over a 0.28-square-degree field of view, 100 times larger than imaging cameras on the Hubble. The Coronagraph Instrument (CGI) is a high-contrast, small-field-of-view camera and spectrometer covering visible and near-infrared wavelengths using novel starlight-suppression technology. Its objectives include a search for exoplanets using gravitational microlensing, along with probing the chronology of the universe and growth of cosmic structure, with the end goal of measuring the effects of dark energy, the consistency of general relativity, and the curvature of spacetime. Roman was recommended in 2010 by the United States National Research Council Decadal Survey committee as the top priority for the next decade of astronomy. It was approved for development and launch on 17 February 2016. NASA expects to release Roman's first science images by early 2027."
+  },
+  {
+   "role": "assistant",
+   "content": "The intro doesn't mention a specific memory card event on July 27, 2026. Let me search for more specific information about this date.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01Gr8zB7SYR65moPW24355vG",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"Nancy Grace Roman Space Telescope\", \"keywords\": \"memory card July 27 2026 names\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01Gr8zB7SYR65moPW24355vG",
+   "content": "[Nancy Grace Roman Space Telescope]\nThe telescope had finished construction on 25 November 2025. On 21 June 2026, the completed telescope arrived at the Kennedy Space Center, in preparation for launch. During final integration at Kennedy Space Center, in July 2026, technicians installed a commemorative plaque onto the telescope which holds a memory card containing 1,350,144 names submitted by the global public as part of a NASA public outreach campaign.\nOn 29 September 2021, NASA announced that Roman had passed its Critical Design Review (CDR), and that with predicted impacts from COVID-19 disruptions, and with flight hardware fabrication completed by 2024 followed by mission integration, the launch date would be no later than May 2027. Via an agreement signed in June 2022, MPIA designed, built, and provided all of CGI's Precision Alignment Mechanisms (PAM) which operate, stabilize, and control optical elements such as optical filters. On 19 Ju\nThe Nancy Grace Roman Space Telescope is a NASA infrared space telescope that was launched on a trajectory toward a Sun–Earth L2 orbit on 30 August 2026. It is named after NASA's first chief of astronomy, Nancy Grace Roman.\nIts objectives include a search for exoplanets using gravitational microlensing, along with probing the chronology of the universe and growth of cosmic structure, with the end goal of measuring the effects of dark energy, the consistency of general relativity, and the curvature of spacetime. Roman was recommended in 2010 by the United States National Research Council Decadal Survey committee as the top priority for the next decade of astronomy. It was approved for development and launch on 17 Fe\nA February 2019 description of the mission's capabilities is available in a white paper issued by members of the Roman team. In March 2019 the Trump administration again proposed to defund the Roman in its FY2020 bu\n"
+  },
+  {
+   "role": "assistant",
+   "content": "Perfect! I found the information. According to the Wikipedia article about the Nancy Grace Roman Space Telescope, during final integration at Kennedy Space Center in July 2026, technicians installed a commemorative plaque with a memory card containing names submitted by the public.\n\nThe article states that the memory card contains **1,350,144 names**.\n\nWhile the article mentions \"July 2026\" rather than the specific date of July 27, 2026, this is the memory card installation that occurred during that timeframe.\n\nFINAL: 1,350,144",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "task": {
+  "id": "fresh-137",
+  "source": "fresh",
+  "question": "On what date in September 2026 did NASA formally conclude its involvement in Katalyst Space’s LINK mission?",
+  "answer": "Sept. 3",
+  "evidence": "NASA formally concluded the agency’s involvement in LINK’s mission on Sept. 3.",
+  "url": "https://science.nasa.gov/missions/swift/nasa-highlights-lessons-learned-from-swift-boost-mission/",
+  "page": "NASA Highlights Lessons Learned From Swift Boost Mission",
+  "publication_date": "2026-09-28",
+  "checked_at": "2026-10-07"
+ },
+ "answer": "I could not find any information regarding NASA's conclusion of involvement in Katalyst Space's LINK mission in September 2026. \n\nFINAL: No information found.",
+ "correct": false,
+ "cost": 0.0003105000000000052,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "On what date in September 2026 did NASA formally conclude its involvement in Katalyst Space’s LINK mission?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_CMoNmiXarXE2t4Ot3ynSVEgI",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"NASA conclude involvement Katalyst Space LINK mission September 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_CMoNmiXarXE2t4Ot3ynSVEgI",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_y0R9FUUfX4a94TpLpuriohll",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Katalyst Space LINK mission\",\"keywords\":\"NASA conclusion involvement September 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_y0R9FUUfX4a94TpLpuriohll",
+   "content": "No such page or empty extract"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_OoI8bFohKUBzENSA3nkyUwtK",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Katalyst Space LINK mission NASA involvement conclusion\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_OoI8bFohKUBzENSA3nkyUwtK",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": "I could not find any information regarding NASA's conclusion of involvement in Katalyst Space's LINK mission in September 2026. \n\nFINAL: No information found.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

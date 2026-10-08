@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-25",
+  "source": "fresh",
+  "question": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?",
+  "answer": "\"open war\"",
+  "evidence": "February 26 – 2026 Afghanistan–Pakistan war: The government of Pakistan declares \"open war\" against the Taliban in Afghanistan.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I couldn't find specific information regarding the declaration made by the government of Pakistan on February 26, 2026, related to the Afghanistan–Pakistan war. It appears that there were multiple military actions and ceasefires but no clear statement was recorded for that specific date. \n\nFINAL: No specific declaration found for February 26, 2026.",
+ "correct": false,
+ "cost": 0.0004225500000000007,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_k0heNGT80miyyXIEip6BjMRq",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Afghanistan–Pakistan war Pakistan government declaration February 26, 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_k0heNGT80miyyXIEip6BjMRq",
+   "content": "[2025 Afghanistan–Pakistan conflict] In the early hours of 9 October 2025, Pakistan carried out airstrikes in Kabul, Khost, Jalalabad, and Paktika, targeting the Pakistani Taliban (TTP) which it code named \"Operation Khyber Storm\". The group's leader, Noor Wali Mehsud, was the main target of the attack in Kabul, which occurred in Abdul Haq Square, but survived. On the night from 11 to 12 October, the Afghan Taliban launched an attack on multiple Pakistani military posts along the Afghanistan–Pakistan border in retaliation for the Pakistani airstrikes. Following the attack, the Taliban’s Ministry of Defense announced the conclusion of their operation. However, Pakistani officials rejected the Taliban’s ceasefire declaration and continued their offensive, which was confirmed by a Taliban spokesman, noting that clashes persisted into the morning of 12 October. On the same day, reports emerged of Pakistani drone strikes in Kandahar and Helmand provinces, killing 19 Taliban fighters, though these casualties were not confirmed by Taliban officials. Both sides claimed to have inflicted heavy losses on each other and captured or destroyed several border posts. Satellite imagery of a Taliban military compound in Spin Boldak showed that it had suffered significant damage during the clashes. Heavy fighting resumed on 15 October, with both sides accusing the other of initiating the violence. The fiercest fighting occurred around Spin Boldak, where civilian casualties were reported. Pakistan later announced “precision” airstrikes inside Afghanistan, which Afghan locals and media said hit Kabul and military sites in Kandahar, while the Taliban attributed the Kabul explosion to an oil-tanker blast. Following a 48-hour ceasefire, which was only set by Pakistan publicly, the Pakistani military carried out airstrikes in Paktika province after the truce expired. The Taliban accused Pakistan of targeting civilians in Paktika, while Pakistan rebutted that the strikes targeted militants "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_S53mIzsOXdq4z6LYbYqu0fec",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2025 Afghanistan–Pakistan conflict\",\"keywords\":\"February 26, 2026, Pakistan government declaration\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_S53mIzsOXdq4z6LYbYqu0fec",
+   "content": "[2025 Afghanistan–Pakistan conflict]\nHeavy fighting resumed on 15 October, with both sides accusing the other of initiating the violence. The fiercest fighting occurred around Spin Boldak, where civilian casualties were reported. Pakistan later announced “precision” airstrikes inside Afghanistan, which Afghan locals and media said hit Kabul and military sites in Kandahar, while the Taliban attributed the Kabul explosion to an oil-tanker blast. Following a 48-hour ceasefire, which was only set by Pakistan publicly, the Pakistani mil\nOn the night of 11 October, the Afghan Taliban—through the Islamic National Army led by Qari Fasihuddin—launched an attack on multiple Pakistani military posts along the Afghanistan-Pakistan border. Afghan officials stated that the attack was in response to the Pakistani airstrikes in Afghanistan. The Afghan government claimed to have killed 58 Pakistani personnel, with 9 Afghan soldiers killed. Hours after the attack, the Afghan Ministry of Defense declared that the group’s operation against Pa\n2026 Afghanistan–Pakistan conflict\nFollowing the attack, the Taliban’s Ministry of Defense announced the conclusion of their operation. However, Pakistani officials rejected the Taliban’s ceasefire declaration and continued their offensive, which was confirmed by a Taliban spokesman, noting that clashes persisted into the morning of 12 October. On the same day, reports emerged of Pakistani drone strikes in Kandahar and Helmand provinces, killing 19 Taliban fighters, though these casualties were not confirmed by Taliban officials.\nPakistan has accused the Afghan government in recent years of allowing the Tehreek-e-Taliban Pakistan (TTP), an offshoot of the Afghan Taliban, to use Afghan soil as a safe haven to plan and launch attacks across the border into Pakistan.\n"
+  },
+  {
+   "role": "assistant",
+   "content": "I couldn't find specific information regarding the declaration made by the government of Pakistan on February 26, 2026, related to the Afghanistan–Pakistan war. It appears that there were multiple military actions and ceasefires but no clear statement was recorded for that specific date. \n\nFINAL: No specific declaration found for February 26, 2026.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

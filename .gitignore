@@ -1,0 +1,6 @@
+.env
+.env.*
+!.env.example
+.venv/
+.ipynb_checkpoints/
+__pycache__/

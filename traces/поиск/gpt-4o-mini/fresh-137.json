@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-137",
+  "source": "fresh",
+  "question": "On what date in September 2026 did NASA formally conclude its involvement in Katalyst Space’s LINK mission?",
+  "answer": "Sept. 3",
+  "evidence": "NASA formally concluded the agency’s involvement in LINK’s mission on Sept. 3.",
+  "url": "https://science.nasa.gov/missions/swift/nasa-highlights-lessons-learned-from-swift-boost-mission/",
+  "page": "NASA Highlights Lessons Learned From Swift Boost Mission",
+  "publication_date": "2026-09-28",
+  "checked_at": "2026-10-07"
+ },
+ "answer": "NASA concluded its involvement in Katalyst Space’s LINK mission on September 25, 2026, when the LINK spacecraft reentered. \n\nFINAL: September 25, 2026",
+ "correct": false,
+ "cost": 0.00016349999999999698,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "On what date in September 2026 did NASA formally conclude its involvement in Katalyst Space’s LINK mission?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_OOmiV0ljtUynpuNC8Imr0y3t",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"NASA Katalyst Space LINK mission conclusion date September 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_OOmiV0ljtUynpuNC8Imr0y3t",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Em7SB7ZIPow4ZQ6o0nYz0sVo",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"NASA Katalyst Space LINK mission\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Em7SB7ZIPow4ZQ6o0nYz0sVo",
+   "content": "[Swift boost mission] The Swift boost mission was a robotic on-orbit satellite servicing mission that was intended to boost the orbit and extend the lifetime of the Neil Gehrels Swift Observatory, which is anticipated to undergo uncontrolled reentry by the end of 2026. The LINK servicing spacecraft, built and operated by Katalyst Space Technologies, was launched on July 3, 2026, and reentered on September 25, 2026. LINK was to have been the first commercial spacecraft to dock with a government-owned spacecraft that was not designed for docking or on-orbit servicing. However, following ongoing attitude control problems, Katalyst abandoned the boost attempt, and simply conducted rendezvous and proximity tests around Swift while their spacecraft remained in orbit."
+  },
+  {
+   "role": "assistant",
+   "content": "NASA concluded its involvement in Katalyst Space’s LINK mission on September 25, 2026, when the LINK spacecraft reentered. \n\nFINAL: September 25, 2026",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

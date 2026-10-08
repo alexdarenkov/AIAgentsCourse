@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-108",
+  "source": "fresh",
+  "question": "Where does a man get killed in a shark attack in June 2026?",
+  "answer": "Michaelmas Island",
+  "evidence": "6 June – A man is killed in a shark attack off Michaelmas Island in Western Australia.",
+  "page": "2026 in Australia",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Australia",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "I cannot provide facts or information about specific events that occur after my last training cut-off in October 2023. Please check current news sources for the latest information. \n\nFINAL: Unable to provide.",
+ "correct": false,
+ "cost": 3.765000000000018e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Where does a man get killed in a shark attack in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I cannot provide facts or information about specific events that occur after my last training cut-off in October 2023. Please check current news sources for the latest information. \n\nFINAL: Unable to provide.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

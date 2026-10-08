@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-130",
+  "source": "fresh",
+  "question": "Which exoplanet was confirmed as the youngest known planet, less than a million years old, in the study reported by NASA on September 16, 2026?",
+  "answer": "Elias 2-24 b",
+  "evidence": "An artist's concept of the youngest known exoplanet, Elias 2-24 b.",
+  "url": "https://science.nasa.gov/universe/newfound-baby-planet-smashes-record-for-youngest-known-world/",
+  "page": "Newfound ‘Baby’ Planet Smashes Record for Youngest Known World",
+  "publication_date": "2026-09-16",
+  "checked_at": "2026-10-07"
+ },
+ "answer": "I need to find information about a NASA study reported on September 16, 2026, confirming the youngest known exoplanet (less than a million years old).\n\nMy knowledge cutoff is early 2025, so I don't have information about events or announcements from September 2026. I cannot accurately answer this question without access to that future information.\n\nFINAL: I don't have information about this September 2026 NASA announcement, as it falls beyond my knowledge cutoff.",
+ "correct": false,
+ "cost": 0.0020519999999999983,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Which exoplanet was confirmed as the youngest known planet, less than a million years old, in the study reported by NASA on September 16, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I need to find information about a NASA study reported on September 16, 2026, confirming the youngest known exoplanet (less than a million years old).\n\nMy knowledge cutoff is early 2025, so I don't have information about events or announcements from September 2026. I cannot accurately answer this question without access to that future information.\n\nFINAL: I don't have information about this September 2026 NASA announcement, as it falls beyond my knowledge cutoff.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "task": {
+  "id": "fresh-73",
+  "source": "fresh",
+  "question": "Who was sentenced to two years' imprisonment for bribery in South Korea on August 31, 2026?",
+  "answer": "Han Hak-ja",
+  "evidence": "31 August – A court in Seoul sentences Unification Church leader Han Hak-ja to two years' imprisonment for bribery involving former first lady Kim Keon Hee.",
+  "page": "2026 in South Korea",
+  "url": "https://en.wikipedia.org/wiki/2026_in_South_Korea",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Based on the Wikipedia information, on August 31, 2026, a court in Seoul sentenced **Han Hak-ja**, the Unification Church leader, to two years' imprisonment for bribery involving former first lady Kim Keon Hee.\n\nFINAL: Han Hak-ja, Unification Church leader",
+ "correct": true,
+ "cost": 0.012745000000000006,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who was sentenced to two years' imprisonment for bribery in South Korea on August 31, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about this event.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01RGt1Kkz6AMWjjX4yWDwGzi",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"sentenced imprisonment bribery South Korea August 31 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01RGt1Kkz6AMWjjX4yWDwGzi",
+   "content": "[2026 in South Korea] Scheduled events in 2026 in South Korea."
+  },
+  {
+   "role": "assistant",
+   "content": "Let me try a more specific search:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_012nGdqPsKJyPmiHFZDN3Mso",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"August 31 2026 South Korea bribery sentence\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_012nGdqPsKJyPmiHFZDN3Mso",
+   "content": "[2026 in South Korea] Scheduled events in 2026 in South Korea."
+  },
+  {
+   "role": "assistant",
+   "content": "Let me check the Wikipedia page for 2026 in South Korea:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_014MgELHumUhohQj4oZCn8xN",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"2026 in South Korea\", \"keywords\": \"August 31 bribery imprisonment sentence\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_014MgELHumUhohQj4oZCn8xN",
+   "content": "[2026 in South Korea]\n31 August – A court in Seoul sentences Unification Church leader Han Hak-ja to two years' imprisonment for bribery involving former first lady Kim Keon Hee.\nFormer president Yoon Suk Yeol is convicted and sentenced to five years' imprisonment on charges of abuse of power, obstruction of justice and falsification of documents in one of four trials relating to the 2024 South Korean martial law crisis.\n21 January – Former prime minister Han Duck-soo is convicted and sentenced to 23 years' imprisonment on charges relating to the 2024 South Korean martial law crisis.\n28 January – Former first lady Kim Keon Hee is convicted and sentenced to 20 months' imprisonment on charges of accepting bribes from the Unification Church.\n12 February – Former interior minister Lee Sang-min is convicted and sentenced to seven years' imprisonment on charges relating to the 2024 South Korean martial law crisis.\n19 February – Former president Yoon Suk Yeol is convicted and sentenced to life imprisonment for insurrection relating to the 2024 South Korean martial law crisis.\n"
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the Wikipedia information, on August 31, 2026, a court in Seoul sentenced **Han Hak-ja**, the Unification Church leader, to two years' imprisonment for bribery involving former first lady Kim Keon Hee.\n\nFINAL: Han Hak-ja, Unification Church leader",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}
